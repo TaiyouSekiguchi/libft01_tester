@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
 #include "my_tester.h"
 
 int	main(void)
@@ -56,7 +55,7 @@ int	main(void)
 
 	printf("\n********** LEAK CHECK PART **********\n\n");
 
-	system("leaks a.out");
+	system("leaks libft_01_tester");
 
 	return (0);
 }

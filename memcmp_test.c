@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "my_tester.h"
 
 static char	do_test(const void *s1, const void *s2, size_t n)
@@ -59,7 +58,7 @@ char	*memcmp_test(void)
 	int	array1[] = {22, -5736, 8873, 283790, -44837, 0, 5574, 42};
 	int	array2[] = {22, -5736, 8873, 283790, -44837, 0, 5574, 42};
 	result[16] = do_test(array1, array2, sizeof(array1));
-	
+
 	int	array3[] = {3345, -99182, 67638, 3345, -1111, 67839};
 	int	array4[] = {3345, -99182, 67638, 2222, 37, 9802};
 	result[16] = do_test(array3, array4, sizeof(array3));
