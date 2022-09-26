@@ -3,3 +3,4 @@ a.out
 *.a
 tags
 .tags
+libft_01_tester
